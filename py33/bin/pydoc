@@ -1,0 +1,5 @@
+#!/home/users/salmanee/py33/bin/python3.3
+if __name__ == '__main__':
+    import sys, pydoc
+    sys.exit(pydoc.cli())
+

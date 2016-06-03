@@ -1,0 +1,661 @@
+------------------------------------------------------------
+/usr/local/bin/pip run on Mon Apr 18 15:43:39 2016
+Downloading/unpacking jupyter
+  Getting page http://pypi.python.org/simple/jupyter
+  URLs to search for versions for jupyter:
+  * http://pypi.python.org/simple/jupyter/
+  Getting page http://pypi.python.org/simple/jupyter/
+  Analyzing links from page https://pypi.python.org/simple/jupyter/
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter/jupyter-1.0.0-py2.py3-none-any.whl#md5=f81d039e084c2c0c4da9e4a86446b863 (from https://pypi.python.org/simple/jupyter/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/j/jupyter/jupyter-1.0.0.tar.gz#md5=c6030444c7eb6c05a4d7b1768c72aed7 (from https://pypi.python.org/simple/jupyter/), version: 1.0.0
+    Found link https://pypi.python.org/packages/source/j/jupyter/jupyter-1.0.0.zip#md5=25142b08e2ad7142b6f920bc8cc8dfeb (from https://pypi.python.org/simple/jupyter/), version: 1.0.0
+  Using version 1.0.0 (newest of versions: 1.0.0, 1.0.0)
+  Downloading jupyter-1.0.0.tar.gz
+  Downloading from URL https://pypi.python.org/packages/source/j/jupyter/jupyter-1.0.0.tar.gz#md5=c6030444c7eb6c05a4d7b1768c72aed7 (from https://pypi.python.org/simple/jupyter/)
+  Running setup.py egg_info for package jupyter
+    running egg_info
+    creating pip-egg-info/jupyter.egg-info
+    writing requirements to pip-egg-info/jupyter.egg-info/requires.txt
+    writing pip-egg-info/jupyter.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/jupyter.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/jupyter.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/jupyter.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/jupyter.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/jupyter.egg-info/SOURCES.txt'
+Downloading/unpacking notebook (from jupyter)
+  Getting page http://pypi.python.org/simple/notebook
+  URLs to search for versions for notebook (from jupyter):
+  * http://pypi.python.org/simple/notebook/
+  Getting page http://pypi.python.org/simple/notebook/
+  Analyzing links from page https://pypi.python.org/simple/notebook/
+    Skipping link https://pypi.python.org/packages/2.7/n/notebook/notebook-4.0.1-py2.py3-none-any.whl#md5=bf361e35af890ae871da2236585cb699 (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/n/notebook/notebook-4.0.6-py2.py3-none-any.whl#md5=2d9fab4a9b4e0cbf692fb42b917c71c8 (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/n/notebook/notebook-4.0.2-py2.py3-none-any.whl#md5=481a3f65c0dd6149e735ca5a6be1bbe9 (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/n/notebook/notebook-4.0.4-py2.py3-none-any.whl#md5=7c6e37ae43c72a4935abe65ced661b09 (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/n/notebook/notebook-4.0.5-py2.py3-none-any.whl#md5=4394b6785b37db01878cd8d2b2214dfb (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/n/notebook/notebook-4.1.0-py2.py3-none-any.whl#md5=a19701469a690fb81ab68feb3627a211 (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/n/notebook/notebook-4.2.0-py2.py3-none-any.whl#md5=2f9eb3c4aac1bc84b11bdfe2cf8161e9 (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/n/notebook/notebook-4.2.0b1-py2.py3-none-any.whl#md5=8c267b1ff954c50255f7060c1410b600 (from https://pypi.python.org/simple/notebook/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.0.tar.gz#md5=dd20afbb3dac490ffc82ed2a929b9fe6 (from https://pypi.python.org/simple/notebook/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.0.zip#md5=cc2ec89ef65d82792adcab63f0300a8d (from https://pypi.python.org/simple/notebook/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.1.tar.gz#md5=a3c188dae35dbb0e6b78d53a9028a40e (from https://pypi.python.org/simple/notebook/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.1.zip#md5=4508a52bcfa4d5bfa1c69d2d3d9431d2 (from https://pypi.python.org/simple/notebook/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.2.tar.gz#md5=92e0caeced4ccb8873e51539c9b7796a (from https://pypi.python.org/simple/notebook/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.2.zip#md5=8c09ff0830cf96f06d1190f8b1bf4b51 (from https://pypi.python.org/simple/notebook/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.4.tar.gz#md5=91d6d780832f1bec7545c66e367d34f3 (from https://pypi.python.org/simple/notebook/), version: 4.0.4
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.4.zip#md5=e98ab81a972289b777569f9b59b60f02 (from https://pypi.python.org/simple/notebook/), version: 4.0.4
+    Skipping link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.5.ZIP#md5=14f0b5578b0d36faea7ed61d4b3d2d47 (from https://pypi.python.org/simple/notebook/); unknown archive format: .ZIP
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.5.tgz#md5=efc9563674c099b1868f024a8fc75948 (from https://pypi.python.org/simple/notebook/), version: 4.0.5
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.6.tar.gz#md5=81477df381599455ef7529c5d6a18439 (from https://pypi.python.org/simple/notebook/), version: 4.0.6
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.0.6.zip#md5=cadc5189d77f6081124b96e154e4d687 (from https://pypi.python.org/simple/notebook/), version: 4.0.6
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.1.0.tar.gz#md5=d390cf1a0785a43711a2548c8f3c91b8 (from https://pypi.python.org/simple/notebook/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.1.0.zip#md5=8794575af1f03b4d2fa8cde95a9660df (from https://pypi.python.org/simple/notebook/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.2.0.tar.gz#md5=3a72bb93f6f01caec69e5e65718f5f7f (from https://pypi.python.org/simple/notebook/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.2.0.zip#md5=333cbbfb587b5e53774c6b68ca24e5bd (from https://pypi.python.org/simple/notebook/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.2.0b1.tar.gz#md5=b550550b226b8485047eae4dfd0f7d42 (from https://pypi.python.org/simple/notebook/), version: 4.2.0b1
+    Found link https://pypi.python.org/packages/source/n/notebook/notebook-4.2.0b1.zip#md5=a629a0d179fb7aeaed3ef1e106a8edc5 (from https://pypi.python.org/simple/notebook/), version: 4.2.0b1
+  Using version 4.2.0 (newest of versions: 4.2.0, 4.2.0, 4.2.0b1, 4.2.0b1, 4.1.0, 4.1.0, 4.0.6, 4.0.6, 4.0.5, 4.0.4, 4.0.4, 4.0.2, 4.0.2, 4.0.1, 4.0.1, 4.0.0, 4.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/n/notebook/notebook-4.2.0.tar.gz#md5=3a72bb93f6f01caec69e5e65718f5f7f (from https://pypi.python.org/simple/notebook/)
+  Running setup.py egg_info for package notebook
+    warning: no directories found matching 'docs'
+    warning: no previously-included files found matching 'docs/#*'
+    warning: no directories found matching 'examples'
+    no previously-included directories found matching 'docs/build'
+    no previously-included directories found matching 'docs/gh-pages'
+    no previously-included directories found matching 'docs/dist'
+    warning: no previously-included files matching '*~' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '.git' found anywhere in distribution
+    warning: no previously-included files matching '.ipynb_checkpoints' found anywhere in distribution
+    zip_safe flag not set; analyzing archive contents...
+    
+    Installed /home/salmanee/build/notebook/ipython_genutils-0.1.0-py2.7.egg
+    running egg_info
+    creating pip-egg-info/notebook.egg-info
+    writing requirements to pip-egg-info/notebook.egg-info/requires.txt
+    writing pip-egg-info/notebook.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/notebook.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/notebook.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/notebook.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/notebook.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/notebook.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/notebook.egg-info/SOURCES.txt'
+  Source in ./build/notebook has version 4.2.0, which satisfies requirement notebook (from jupyter)
+Downloading/unpacking qtconsole (from jupyter)
+  Getting page http://pypi.python.org/simple/qtconsole
+  URLs to search for versions for qtconsole (from jupyter):
+  * http://pypi.python.org/simple/qtconsole/
+  Getting page http://pypi.python.org/simple/qtconsole/
+  Analyzing links from page https://pypi.python.org/simple/qtconsole/
+    Skipping link https://pypi.python.org/packages/3.4/q/qtconsole/qtconsole-4.0.0-py2.py3-none-any.whl#md5=9cab4d6d1fd16a6b30b37e0f5c83c727 (from https://pypi.python.org/simple/qtconsole/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/q/qtconsole/qtconsole-4.0.1-py2.py3-none-any.whl#md5=668888d152c85690f1a8f5188b845837 (from https://pypi.python.org/simple/qtconsole/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/q/qtconsole/qtconsole-4.1.1-py2.py3-none-any.whl#md5=e565402b95eaad06c6b185f808cd8c91 (from https://pypi.python.org/simple/qtconsole/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/q/qtconsole/qtconsole-4.1.0-py2.py3-none-any.whl#md5=3f120575f6802340a4f676c2d4d77c4c (from https://pypi.python.org/simple/qtconsole/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/q/qtconsole/qtconsole-4.2.0-py2.py3-none-any.whl#md5=5d4363bd4333d8218e52fc33c504327f (from https://pypi.python.org/simple/qtconsole/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/q/qtconsole/qtconsole-4.2.1-py2.py3-none-any.whl#md5=04629b6bfeaa40fd6ce845f918823037 (from https://pypi.python.org/simple/qtconsole/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.0.0.tar.gz#md5=1e26773423044dba4ec138f1725d5582 (from https://pypi.python.org/simple/qtconsole/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.0.0.zip#md5=0c604b8b4592d254fb8a0f27d2ecb525 (from https://pypi.python.org/simple/qtconsole/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.0.1.tar.gz#md5=a8f17246361ee37ec55d3222dee9e18c (from https://pypi.python.org/simple/qtconsole/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.0.1.zip#md5=42860c1a5215a78e5916f4e600603301 (from https://pypi.python.org/simple/qtconsole/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.1.0.tar.gz#md5=4f3c43d2d526cbda7760b2c52b5cd79c (from https://pypi.python.org/simple/qtconsole/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.1.0.zip#md5=e198b2d499f7590f65f7301dfdb1987c (from https://pypi.python.org/simple/qtconsole/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.1.1.tar.gz#md5=12f474ab467d2945249d149d2d32f208 (from https://pypi.python.org/simple/qtconsole/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.1.1.zip#md5=e2b0c38344bc584b96b3fe39851645f2 (from https://pypi.python.org/simple/qtconsole/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.2.0.tar.gz#md5=d08f3f75d2fd7cfa2c863dac0c045d87 (from https://pypi.python.org/simple/qtconsole/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.2.1.tar.gz#md5=c08ebebc7a60629ebadf685361ca0798 (from https://pypi.python.org/simple/qtconsole/), version: 4.2.1
+    Found link https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.2.1.zip#md5=c178758e15f42be2d29c4b3df5fe155d (from https://pypi.python.org/simple/qtconsole/), version: 4.2.1
+  Using version 4.2.1 (newest of versions: 4.2.1, 4.2.1, 4.2.0, 4.1.1, 4.1.1, 4.1.0, 4.1.0, 4.0.1, 4.0.1, 4.0.0, 4.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/q/qtconsole/qtconsole-4.2.1.tar.gz#md5=c08ebebc7a60629ebadf685361ca0798 (from https://pypi.python.org/simple/qtconsole/)
+  Running setup.py egg_info for package qtconsole
+    running egg_info
+    creating pip-egg-info/qtconsole.egg-info
+    writing requirements to pip-egg-info/qtconsole.egg-info/requires.txt
+    writing pip-egg-info/qtconsole.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/qtconsole.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/qtconsole.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/qtconsole.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/qtconsole.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/qtconsole.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/qtconsole.egg-info/SOURCES.txt'
+  Source in ./build/qtconsole has version 4.2.1, which satisfies requirement qtconsole (from jupyter)
+Downloading/unpacking jupyter-console (from jupyter)
+  Getting page http://pypi.python.org/simple/jupyter-console
+  URLs to search for versions for jupyter-console (from jupyter):
+  * http://pypi.python.org/simple/jupyter-console/
+  Getting page http://pypi.python.org/simple/jupyter-console/
+  Analyzing links from page https://pypi.python.org/simple/jupyter-console/
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_console/jupyter_console-4.0.0-py2.py3-none-any.whl#md5=e62ee1d886367e307a126b4e7272cd01 (from https://pypi.python.org/simple/jupyter-console/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_console/jupyter_console-4.0.1-py2.py3-none-any.whl#md5=3d185157f3663d24c6a22ba89fd9f21e (from https://pypi.python.org/simple/jupyter-console/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_console/jupyter_console-4.0.2-py2.py3-none-any.whl#md5=339979ea2f650dade3c1186c74348988 (from https://pypi.python.org/simple/jupyter-console/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/j/jupyter_console/jupyter_console-4.0.3-py2.py3-none-any.whl#md5=f5dc58614909438e939d37806548f337 (from https://pypi.python.org/simple/jupyter-console/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/j/jupyter_console/jupyter_console-4.1.0-py2.py3-none-any.whl#md5=131450f92d0dce3f484f761c4ca661e9 (from https://pypi.python.org/simple/jupyter-console/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/j/jupyter_console/jupyter_console-4.1.1-py2.py3-none-any.whl#md5=d650f48f6558d37d571b3477681686dd (from https://pypi.python.org/simple/jupyter-console/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.0.tar.gz#md5=9f531e715b7d90d214b533e18448b6aa (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.0.zip#md5=3dec7ff2767b0e60188fee92eddb7025 (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.1.tar.gz#md5=142d0adc6da66aea781e4ca3b8411e6b (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.1.zip#md5=7e601eb1372d0ccfbb76d74be0a73790 (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.2.tar.gz#md5=73e7b712cabd84625ff0ecc1c9ea698f (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.2.zip#md5=0adebb8a292117f6cd6d032be0205657 (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.3.tar.gz#md5=2c4994d1de2d94bf9bcefc4f9df110fd (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.3
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.0.3.zip#md5=0697bc91936a14424693eb97b3b5c4e5 (from https://pypi.python.org/simple/jupyter-console/), version: 4.0.3
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.1.0.tar.gz#md5=db3ee05de6f2216b158786c2674baae1 (from https://pypi.python.org/simple/jupyter-console/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.1.0.zip#md5=c83ff35820d87dfaae274d8848ffb692 (from https://pypi.python.org/simple/jupyter-console/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.1.1.tar.gz#md5=a80bfb1b129fc3c8d6c33e3306af933c (from https://pypi.python.org/simple/jupyter-console/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.1.1.zip#md5=859239c2939d8fbd486fadc178e36b35 (from https://pypi.python.org/simple/jupyter-console/), version: 4.1.1
+  Using version 4.1.1 (newest of versions: 4.1.1, 4.1.1, 4.1.0, 4.1.0, 4.0.3, 4.0.3, 4.0.2, 4.0.2, 4.0.1, 4.0.1, 4.0.0, 4.0.0)
+  Downloading jupyter_console-4.1.1.tar.gz
+  Downloading from URL https://pypi.python.org/packages/source/j/jupyter_console/jupyter_console-4.1.1.tar.gz#md5=a80bfb1b129fc3c8d6c33e3306af933c (from https://pypi.python.org/simple/jupyter-console/)
+  Running setup.py egg_info for package jupyter-console
+    running egg_info
+    creating pip-egg-info/jupyter_console.egg-info
+    writing requirements to pip-egg-info/jupyter_console.egg-info/requires.txt
+    writing pip-egg-info/jupyter_console.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/jupyter_console.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/jupyter_console.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/jupyter_console.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/jupyter_console.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/jupyter_console.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/jupyter_console.egg-info/SOURCES.txt'
+  Source in ./build/jupyter-console has version 4.1.1, which satisfies requirement jupyter-console (from jupyter)
+Downloading/unpacking nbconvert (from jupyter)
+  Getting page http://pypi.python.org/simple/nbconvert
+  URLs to search for versions for nbconvert (from jupyter):
+  * http://pypi.python.org/simple/nbconvert/
+  Getting page http://pypi.python.org/simple/nbconvert/
+  Analyzing links from page https://pypi.python.org/simple/nbconvert/
+    Skipping link https://pypi.python.org/packages/3.4/n/nbconvert/nbconvert-4.0.0-py2.py3-none-any.whl#md5=ccc02818a541f13882fbcb4beeffd390 (from https://pypi.python.org/simple/nbconvert/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/n/nbconvert/nbconvert-4.1.0-py2.py3-none-any.whl#md5=e09e835c7e2ac11318ecb747afff0ba7 (from https://pypi.python.org/simple/nbconvert/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/n/nbconvert/nbconvert-4.2.0-py2.py3-none-any.whl#md5=77943cc6a82ea34bd9cd0f8795844799 (from https://pypi.python.org/simple/nbconvert/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/n/nbconvert/nbconvert-4.0.0.tar.gz#md5=223067790b8f193f587f5b59ee76f568 (from https://pypi.python.org/simple/nbconvert/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/n/nbconvert/nbconvert-4.0.0.zip#md5=e8209c7526835d734dfc77bf7ac2d29e (from https://pypi.python.org/simple/nbconvert/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/n/nbconvert/nbconvert-4.1.0.tar.gz#md5=58ee16f5da0dd2976ff992511d6bfb43 (from https://pypi.python.org/simple/nbconvert/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/n/nbconvert/nbconvert-4.1.0.zip#md5=1bed7298b0b3d8c2cb2ec4550cc1b50b (from https://pypi.python.org/simple/nbconvert/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/n/nbconvert/nbconvert-4.2.0.tar.gz#md5=710e356c4effcfddd29a3c10f1d8c3e6 (from https://pypi.python.org/simple/nbconvert/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/n/nbconvert/nbconvert-4.2.0.zip#md5=f41b2392df5953f8358aee93c96410a9 (from https://pypi.python.org/simple/nbconvert/), version: 4.2.0
+  Using version 4.2.0 (newest of versions: 4.2.0, 4.2.0, 4.1.0, 4.1.0, 4.0.0, 4.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/n/nbconvert/nbconvert-4.2.0.tar.gz#md5=710e356c4effcfddd29a3c10f1d8c3e6 (from https://pypi.python.org/simple/nbconvert/)
+  Running setup.py egg_info for package nbconvert
+    running egg_info
+    creating pip-egg-info/nbconvert.egg-info
+    writing requirements to pip-egg-info/nbconvert.egg-info/requires.txt
+    writing pip-egg-info/nbconvert.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/nbconvert.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/nbconvert.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/nbconvert.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/nbconvert.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/nbconvert.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/nbconvert.egg-info/SOURCES.txt'
+  Source in ./build/nbconvert has version 4.2.0, which satisfies requirement nbconvert (from jupyter)
+Downloading/unpacking ipykernel (from jupyter)
+  Getting page http://pypi.python.org/simple/ipykernel
+  URLs to search for versions for ipykernel (from jupyter):
+  * http://pypi.python.org/simple/ipykernel/
+  Getting page http://pypi.python.org/simple/ipykernel/
+  Analyzing links from page https://pypi.python.org/simple/ipykernel/
+    Skipping link https://pypi.python.org/packages/3.4/i/ipykernel/ipykernel-4.0.1-py2.py3-none-any.whl#md5=30c3136dddd7061663803e8d6f9b5703 (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/i/ipykernel/ipykernel-4.0.2-py2.py3-none-any.whl#md5=c8da9ef2df05da3359015e6c9365aff5 (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/i/ipykernel/ipykernel-4.0.3-py2.py3-none-any.whl#md5=4bb6df37ab4ec0bfa6d29edcda026596 (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/i/ipykernel/ipykernel-4.2.0-py2.py3-none-any.whl#md5=5f711828c4006f18853d45df238c7724 (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/i/ipykernel/ipykernel-4.2.1-py2.py3-none-any.whl#md5=c00739fec138607b51e78c430088e8c7 (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/i/ipykernel/ipykernel-4.1.0-py2.py3-none-any.whl#md5=7f55e4c70f9d2cdbd1c314ed2d79c09e (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/i/ipykernel/ipykernel-4.1.1-py2.py3-none-any.whl#md5=c4e07f2e40199427fee12edba06888bc (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/i/ipykernel/ipykernel-4.2.2-py2.py3-none-any.whl#md5=89c2b3e96ec2637599a7b969a860c06c (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/i/ipykernel/ipykernel-4.3.0-py2.py3-none-any.whl#md5=a5a308c386d6b1439acab6dc967fc72d (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/i/ipykernel/ipykernel-4.3.1-py2.py3-none-any.whl#md5=8dc3c636084d24712ba035da589a1b69 (from https://pypi.python.org/simple/ipykernel/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.0.1.tar.gz#md5=d0e64447b8e1f69cb6c8fdfb51eafa0c (from https://pypi.python.org/simple/ipykernel/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.0.1.zip#md5=ef9d85f50b072c792385dd85229b9953 (from https://pypi.python.org/simple/ipykernel/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.0.2.tar.gz#md5=93ed378a5ef7a169d6535f0e924ada1f (from https://pypi.python.org/simple/ipykernel/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.0.3.tar.gz#md5=86b6a392e5ca727284220ea0034ec4d5 (from https://pypi.python.org/simple/ipykernel/), version: 4.0.3
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.0.3.zip#md5=0f9c8362fc8d8c354700410e7eb00917 (from https://pypi.python.org/simple/ipykernel/), version: 4.0.3
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.1.0.tar.gz#md5=966cf6d34f018e6cd844e53945a6688f (from https://pypi.python.org/simple/ipykernel/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.1.0.zip#md5=dd700a28d2d5063fce2e463cbc59381f (from https://pypi.python.org/simple/ipykernel/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.1.1.tar.gz#md5=6093813ebd95b790c7eb4c9841bd07ce (from https://pypi.python.org/simple/ipykernel/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.1.1.zip#md5=2127c926ab922e2f052f3f02c7deedc5 (from https://pypi.python.org/simple/ipykernel/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.2.0.tar.gz#md5=387fb061629772b9a997c2c50820dad3 (from https://pypi.python.org/simple/ipykernel/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.2.0.zip#md5=520221c557ebd13d3460b6a9836e7413 (from https://pypi.python.org/simple/ipykernel/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.2.1.tar.gz#md5=fff89d65e69aed6f459b1340ee8c6876 (from https://pypi.python.org/simple/ipykernel/), version: 4.2.1
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.2.1.zip#md5=bb72315e471074284fa84dfae2eb1f62 (from https://pypi.python.org/simple/ipykernel/), version: 4.2.1
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.2.2.tar.gz#md5=e920441d231e6b659622033849fb3218 (from https://pypi.python.org/simple/ipykernel/), version: 4.2.2
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.2.2.zip#md5=b051d9eb1bb4aca231443b4827d6f79e (from https://pypi.python.org/simple/ipykernel/), version: 4.2.2
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.3.0.tar.gz#md5=667b72ede386fcc767108902365cb95a (from https://pypi.python.org/simple/ipykernel/), version: 4.3.0
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.3.0.zip#md5=a9a35e9f33588c112e28e0716bb5df00 (from https://pypi.python.org/simple/ipykernel/), version: 4.3.0
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.3.1.tar.gz#md5=0b1150602203af298631555509a809bd (from https://pypi.python.org/simple/ipykernel/), version: 4.3.1
+    Found link https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.3.1.zip#md5=a29c09cef97ac60211c92bdeb8b291ae (from https://pypi.python.org/simple/ipykernel/), version: 4.3.1
+  Using version 4.3.1 (newest of versions: 4.3.1, 4.3.1, 4.3.0, 4.3.0, 4.2.2, 4.2.2, 4.2.1, 4.2.1, 4.2.0, 4.2.0, 4.1.1, 4.1.1, 4.1.0, 4.1.0, 4.0.3, 4.0.3, 4.0.2, 4.0.1, 4.0.1)
+  Downloading from URL https://pypi.python.org/packages/source/i/ipykernel/ipykernel-4.3.1.tar.gz#md5=0b1150602203af298631555509a809bd (from https://pypi.python.org/simple/ipykernel/)
+  Running setup.py egg_info for package ipykernel
+    running egg_info
+    creating pip-egg-info/ipykernel.egg-info
+    writing requirements to pip-egg-info/ipykernel.egg-info/requires.txt
+    writing pip-egg-info/ipykernel.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/ipykernel.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/ipykernel.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/ipykernel.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/ipykernel.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/ipykernel.egg-info/SOURCES.txt'
+  Source in ./build/ipykernel has version 4.3.1, which satisfies requirement ipykernel (from jupyter)
+Downloading/unpacking ipywidgets (from jupyter)
+  Getting page http://pypi.python.org/simple/ipywidgets
+  URLs to search for versions for ipywidgets (from jupyter):
+  * http://pypi.python.org/simple/ipywidgets/
+  Getting page http://pypi.python.org/simple/ipywidgets/
+  Analyzing links from page https://pypi.python.org/simple/ipywidgets/
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-4.0.1-py2.py3-none-any.whl#md5=aa46e4aedf8152b17e92bb168ae2ea9d (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-4.0.2-py2.py3-none-any.whl#md5=8ea3b09ad9a33aa8cea8e694b5f57177 (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-4.0.3-py2.py3-none-any.whl#md5=a54121a0bb16c7663b88b5c5953a4773 (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-4.1.0-py2.py3-none-any.whl#md5=7a01dca1ca8cf70873c6879a748decf5 (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-4.1.1-py2.py3-none-any.whl#md5=e083cb7b91f9a4f0c590a2e15fa909b9 (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-5.0.0b1-py2.py3-none-any.whl#md5=c73ecfe05b64f0f6b9a78c525b9b0afb (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-5.0.0b2-py2.py3-none-any.whl#md5=5c165023761517ec6f96acacb9e51d85 (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-5.0.0b3-py2.py3-none-any.whl#md5=355db16bae585619ce32bda5da1514d2 (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/i/ipywidgets/ipywidgets-5.0.0b4-py2.py3-none-any.whl#md5=ad7229a6894c928c854c97781af7585d (from https://pypi.python.org/simple/ipywidgets/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-4.0.0.tar.gz#md5=a060763a7fa03fbe5aa5fab6ebd23a07 (from https://pypi.python.org/simple/ipywidgets/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-4.0.1.tar.gz#md5=799d9e2f8221a32dd9ab00c61c5ea162 (from https://pypi.python.org/simple/ipywidgets/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-4.0.2.tar.gz#md5=8c03ee965b91a8f626d5505b41af8031 (from https://pypi.python.org/simple/ipywidgets/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-4.0.3.tar.gz#md5=85163c827ac61ef1f06b2b907561255d (from https://pypi.python.org/simple/ipywidgets/), version: 4.0.3
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-4.1.0.tar.gz#md5=11326ad0cfa06e8365a7772544ca7184 (from https://pypi.python.org/simple/ipywidgets/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-4.1.1.tar.gz#md5=491affdef8e0586eeeb299226ff634aa (from https://pypi.python.org/simple/ipywidgets/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-5.0.0.b1.tar.gz#md5=2fdddb6d4c6189ba89a8017682544884 (from https://pypi.python.org/simple/ipywidgets/), version: 5.0.0.b1
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-5.0.0.b2.tar.gz#md5=e795c28057c41a9a9983e9041d77e179 (from https://pypi.python.org/simple/ipywidgets/), version: 5.0.0.b2
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-5.0.0.b3.tar.gz#md5=636d0f33601f320d7f6230d401c4e71a (from https://pypi.python.org/simple/ipywidgets/), version: 5.0.0.b3
+    Found link https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-5.0.0.b4.tar.gz#md5=e3620c95d45137142d52200e85951035 (from https://pypi.python.org/simple/ipywidgets/), version: 5.0.0.b4
+  Using version 5.0.0.b4 (newest of versions: 5.0.0.b4, 5.0.0.b3, 5.0.0.b2, 5.0.0.b1, 4.1.1, 4.1.0, 4.0.3, 4.0.2, 4.0.1, 4.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/i/ipywidgets/ipywidgets-5.0.0.b4.tar.gz#md5=e3620c95d45137142d52200e85951035 (from https://pypi.python.org/simple/ipywidgets/)
+  Running setup.py egg_info for package ipywidgets
+    running egg_info
+    creating pip-egg-info/ipywidgets.egg-info
+    writing requirements to pip-egg-info/ipywidgets.egg-info/requires.txt
+    writing pip-egg-info/ipywidgets.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/ipywidgets.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/ipywidgets.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/ipywidgets.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/ipywidgets.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/ipywidgets.egg-info/SOURCES.txt'
+  Source in ./build/ipywidgets has version 5.0.0.b4, which satisfies requirement ipywidgets (from jupyter)
+Requirement already satisfied (use --upgrade to upgrade): jinja2 in /usr/lib/python2.7/dist-packages (from notebook->jupyter)
+Downloading/unpacking tornado>=4 (from notebook->jupyter)
+  Getting page http://pypi.python.org/simple/tornado
+  URLs to search for versions for tornado>=4 (from notebook->jupyter):
+  * http://pypi.python.org/simple/tornado/
+  Getting page http://pypi.python.org/simple/tornado/
+  Analyzing links from page https://pypi.python.org/simple/tornado/
+    Skipping link https://pypi.python.org/packages/cp35/t/tornado/tornado-4.3-cp35-none-win32.whl#md5=beb80a37266b5be5b27ae4b14175efea (from https://pypi.python.org/simple/tornado/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp35/t/tornado/tornado-4.3-cp35-none-win_amd64.whl#md5=7adb2f6542204e56fad21e33318e18db (from https://pypi.python.org/simple/tornado/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp35/t/tornado/tornado-4.3b2-cp35-none-win32.whl#md5=74f2187fe5967de1b85e08f1d2c54e73 (from https://pypi.python.org/simple/tornado/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp35/t/tornado/tornado-4.3b2-cp35-none-win_amd64.whl#md5=b5d2f09d8913d9bf304b5259958cf994 (from https://pypi.python.org/simple/tornado/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-0.2.tar.gz#md5=ac4e1a5821de93cd187ef3abd5bf480f (from https://pypi.python.org/simple/tornado/), version: 0.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-1.0.tar.gz#md5=5d87f25839af90a2ae5a862a40779e41 (from https://pypi.python.org/simple/tornado/), version: 1.0
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-1.1.1.tar.gz#md5=b68ec3957382e0f8b5a70ecc5155423c (from https://pypi.python.org/simple/tornado/), version: 1.1.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-1.1.tar.gz#md5=dd6914d09b258545bd138763c16c6c1f (from https://pypi.python.org/simple/tornado/), version: 1.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-1.2.1.tar.gz#md5=e2bfb4e0d97e79101dfb0832d76f9e2b (from https://pypi.python.org/simple/tornado/), version: 1.2.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-1.2.tar.gz#md5=268daf20ffa4faf61e5c8c7c760d44fd (from https://pypi.python.org/simple/tornado/), version: 1.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.0.tar.gz#md5=26ae11d3292d12e3588b10d737009ec7 (from https://pypi.python.org/simple/tornado/), version: 2.0
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.1.1.tar.gz#md5=3cfa12efec87a26e013128388e1e6aa7 (from https://pypi.python.org/simple/tornado/), version: 2.1.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.1.tar.gz#md5=641b4091db56ce2ad2d37ce9705ad325 (from https://pypi.python.org/simple/tornado/), version: 2.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.2.1.tar.gz#md5=ad8d943262bff57ef1b8f7b6d502ba04 (from https://pypi.python.org/simple/tornado/), version: 2.2.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.2.tar.gz#md5=0b2c9d822e213d7ea2b7ebebca357623 (from https://pypi.python.org/simple/tornado/), version: 2.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.3.tar.gz#md5=810c3ecd425924fbf0aa1fa040f93ad1 (from https://pypi.python.org/simple/tornado/), version: 2.3
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.4.1.tar.gz#md5=9b7146cbe7cce015e35856b592707b9b (from https://pypi.python.org/simple/tornado/), version: 2.4.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-2.4.tar.gz#md5=c738af97c31dd70f41f6726cf0968941 (from https://pypi.python.org/simple/tornado/), version: 2.4
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.0.1.tar.gz#md5=20423cb0c1ea7ee1e7a58983099969b2 (from https://pypi.python.org/simple/tornado/), version: 3.0.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.0.2.tar.gz#md5=b265b12c2612f83fc0d12b16130fe3e2 (from https://pypi.python.org/simple/tornado/), version: 3.0.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.0.tar.gz#md5=e01f9ae85838e8ed40d977b9ffc90884 (from https://pypi.python.org/simple/tornado/), version: 3.0
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.1.1.tar.gz#md5=901e4f24b9e840860f6095451aa75828 (from https://pypi.python.org/simple/tornado/), version: 3.1.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.1.tar.gz#md5=2348d626095c5675753287e9af0c321f (from https://pypi.python.org/simple/tornado/), version: 3.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.2.1.tar.gz#md5=d11986d4639aa9f71a31da1ebf40dc19 (from https://pypi.python.org/simple/tornado/), version: 3.2.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.2.2.tar.gz#md5=bf37082723ace27f508400d65cf111fe (from https://pypi.python.org/simple/tornado/), version: 3.2.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-3.2.tar.gz#md5=bd83cee5f1a5c5e139e87996d00b251b (from https://pypi.python.org/simple/tornado/), version: 3.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.0.1.tar.gz#md5=2b28e37b95aa653369a31a440242a24a (from https://pypi.python.org/simple/tornado/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.0.2.tar.gz#md5=985c0e704b765c33a6193d49d1935588 (from https://pypi.python.org/simple/tornado/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.0.tar.gz#md5=8f4ccc60340b9cd3ae7af6ea7a1e4d0f (from https://pypi.python.org/simple/tornado/), version: 4.0
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.1.tar.gz#md5=a06ea343375f2247344257ef691641f9 (from https://pypi.python.org/simple/tornado/), version: 4.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.1b2.tar.gz#md5=c2aea149f627f36be4df6e2fc37d3399 (from https://pypi.python.org/simple/tornado/), version: 4.1b2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.2.1.tar.gz#md5=d523204389cfb70121bb69709f551b20 (from https://pypi.python.org/simple/tornado/), version: 4.2.1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.2.tar.gz#md5=c548d7b77a11d523c3d7255bd7fd6df8 (from https://pypi.python.org/simple/tornado/), version: 4.2
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.2b1.tar.gz#md5=6729264a76b2de11cb8bee629e57c67e (from https://pypi.python.org/simple/tornado/), version: 4.2b1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.3.tar.gz#md5=d13a99dc0b60ba69f5f8ec1235e5b232 (from https://pypi.python.org/simple/tornado/), version: 4.3
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.3b1.tar.gz#md5=801e3c3a1875f93fe2f7b38ba3367145 (from https://pypi.python.org/simple/tornado/), version: 4.3b1
+    Found link https://pypi.python.org/packages/source/t/tornado/tornado-4.3b2.tar.gz#md5=bceb782d5184513a651741da824b9d9c (from https://pypi.python.org/simple/tornado/), version: 4.3b2
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-0.2.tar.gz#md5=ac4e1a5821de93cd187ef3abd5bf480f (from https://pypi.python.org/simple/tornado/), version 0.2 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-1.0.tar.gz#md5=5d87f25839af90a2ae5a862a40779e41 (from https://pypi.python.org/simple/tornado/), version 1.0 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-1.1.1.tar.gz#md5=b68ec3957382e0f8b5a70ecc5155423c (from https://pypi.python.org/simple/tornado/), version 1.1.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-1.1.tar.gz#md5=dd6914d09b258545bd138763c16c6c1f (from https://pypi.python.org/simple/tornado/), version 1.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-1.2.1.tar.gz#md5=e2bfb4e0d97e79101dfb0832d76f9e2b (from https://pypi.python.org/simple/tornado/), version 1.2.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-1.2.tar.gz#md5=268daf20ffa4faf61e5c8c7c760d44fd (from https://pypi.python.org/simple/tornado/), version 1.2 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.0.tar.gz#md5=26ae11d3292d12e3588b10d737009ec7 (from https://pypi.python.org/simple/tornado/), version 2.0 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.1.1.tar.gz#md5=3cfa12efec87a26e013128388e1e6aa7 (from https://pypi.python.org/simple/tornado/), version 2.1.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.1.tar.gz#md5=641b4091db56ce2ad2d37ce9705ad325 (from https://pypi.python.org/simple/tornado/), version 2.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.2.1.tar.gz#md5=ad8d943262bff57ef1b8f7b6d502ba04 (from https://pypi.python.org/simple/tornado/), version 2.2.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.2.tar.gz#md5=0b2c9d822e213d7ea2b7ebebca357623 (from https://pypi.python.org/simple/tornado/), version 2.2 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.3.tar.gz#md5=810c3ecd425924fbf0aa1fa040f93ad1 (from https://pypi.python.org/simple/tornado/), version 2.3 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.4.1.tar.gz#md5=9b7146cbe7cce015e35856b592707b9b (from https://pypi.python.org/simple/tornado/), version 2.4.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-2.4.tar.gz#md5=c738af97c31dd70f41f6726cf0968941 (from https://pypi.python.org/simple/tornado/), version 2.4 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.0.1.tar.gz#md5=20423cb0c1ea7ee1e7a58983099969b2 (from https://pypi.python.org/simple/tornado/), version 3.0.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.0.2.tar.gz#md5=b265b12c2612f83fc0d12b16130fe3e2 (from https://pypi.python.org/simple/tornado/), version 3.0.2 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.0.tar.gz#md5=e01f9ae85838e8ed40d977b9ffc90884 (from https://pypi.python.org/simple/tornado/), version 3.0 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.1.1.tar.gz#md5=901e4f24b9e840860f6095451aa75828 (from https://pypi.python.org/simple/tornado/), version 3.1.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.1.tar.gz#md5=2348d626095c5675753287e9af0c321f (from https://pypi.python.org/simple/tornado/), version 3.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.2.1.tar.gz#md5=d11986d4639aa9f71a31da1ebf40dc19 (from https://pypi.python.org/simple/tornado/), version 3.2.1 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.2.2.tar.gz#md5=bf37082723ace27f508400d65cf111fe (from https://pypi.python.org/simple/tornado/), version 3.2.2 doesn't match >=4
+  Ignoring link https://pypi.python.org/packages/source/t/tornado/tornado-3.2.tar.gz#md5=bd83cee5f1a5c5e139e87996d00b251b (from https://pypi.python.org/simple/tornado/), version 3.2 doesn't match >=4
+  Using version 4.3 (newest of versions: 4.3, 4.3b2, 4.3b1, 4.2.1, 4.2, 4.2b1, 4.1, 4.1b2, 4.0.2, 4.0.1, 4.0)
+  Downloading from URL https://pypi.python.org/packages/source/t/tornado/tornado-4.3.tar.gz#md5=d13a99dc0b60ba69f5f8ec1235e5b232 (from https://pypi.python.org/simple/tornado/)
+  Running setup.py egg_info for package tornado
+    running egg_info
+    creating pip-egg-info/tornado.egg-info
+    writing requirements to pip-egg-info/tornado.egg-info/requires.txt
+    writing pip-egg-info/tornado.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/tornado.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/tornado.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/tornado.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/tornado.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    no previously-included directories found matching 'docs/build'
+    warning: no files found matching 'tornado/test/README'
+    writing manifest file 'pip-egg-info/tornado.egg-info/SOURCES.txt'
+  Source in ./build/tornado has version 4.3, which satisfies requirement tornado>=4 (from notebook->jupyter)
+Downloading/unpacking ipython-genutils (from notebook->jupyter)
+  Getting page http://pypi.python.org/simple/ipython_genutils
+  URLs to search for versions for ipython-genutils (from notebook->jupyter):
+  * http://pypi.python.org/simple/ipython_genutils/
+  Getting page http://pypi.python.org/simple/ipython_genutils/
+  Analyzing links from page https://pypi.python.org/simple/ipython-genutils/
+    Skipping link https://pypi.python.org/packages/3.4/i/ipython_genutils/ipython_genutils-0.1.0-py2.py3-none-any.whl#md5=e9bafa78641c78e20eaa0ba481e38969 (from https://pypi.python.org/simple/ipython-genutils/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/i/ipython_genutils/ipython_genutils-0.1.0.tar.gz#md5=9a8afbe0978adbcbfcb3b35b2d015a56 (from https://pypi.python.org/simple/ipython-genutils/), version: 0.1.0
+    Found link https://pypi.python.org/packages/source/i/ipython_genutils/ipython_genutils-0.1.0.zip#md5=9bd368e7294ab372b2f6394504a65653 (from https://pypi.python.org/simple/ipython-genutils/), version: 0.1.0
+  Using version 0.1.0 (newest of versions: 0.1.0, 0.1.0)
+  Downloading ipython_genutils-0.1.0.tar.gz
+  Downloading from URL https://pypi.python.org/packages/source/i/ipython_genutils/ipython_genutils-0.1.0.tar.gz#md5=9a8afbe0978adbcbfcb3b35b2d015a56 (from https://pypi.python.org/simple/ipython-genutils/)
+  Running setup.py egg_info for package ipython-genutils
+    running egg_info
+    creating pip-egg-info/ipython_genutils.egg-info
+    writing pip-egg-info/ipython_genutils.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/ipython_genutils.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/ipython_genutils.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/ipython_genutils.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/ipython_genutils.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no directories found matching 'docs'
+    warning: no previously-included files found matching 'docs/#*'
+    warning: no directories found matching 'examples'
+    no previously-included directories found matching 'docs/build'
+    no previously-included directories found matching 'docs/gh-pages'
+    no previously-included directories found matching 'docs/dist'
+    warning: no previously-included files matching '*~' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '.git' found anywhere in distribution
+    warning: no previously-included files matching '.ipynb_checkpoints' found anywhere in distribution
+    writing manifest file 'pip-egg-info/ipython_genutils.egg-info/SOURCES.txt'
+  Source in ./build/ipython-genutils has version 0.1.0, which satisfies requirement ipython-genutils (from notebook->jupyter)
+Downloading/unpacking traitlets (from notebook->jupyter)
+  Getting page http://pypi.python.org/simple/traitlets
+  URLs to search for versions for traitlets (from notebook->jupyter):
+  * http://pypi.python.org/simple/traitlets/
+  Getting page http://pypi.python.org/simple/traitlets/
+  Analyzing links from page https://pypi.python.org/simple/traitlets/
+    Skipping link https://pypi.python.org/packages/3.4/t/traitlets/traitlets-4.0.0-py2.py3-none-any.whl#md5=72d33d7dc0b62eca6f7272b7501bc62c (from https://pypi.python.org/simple/traitlets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/t/traitlets/traitlets-4.0.0.dev0-py2.py3-none-any.whl#md5=242d8b897320fa9b9ca7b70c40262761 (from https://pypi.python.org/simple/traitlets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/t/traitlets/traitlets-4.1.0b1-py2.py3-none-any.whl#md5=da4c896c78546ae4aeea79cb035cfc7b (from https://pypi.python.org/simple/traitlets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/t/traitlets/traitlets-4.1.0-py2.py3-none-any.whl#md5=ae20c0511992bc7e586d90401158c160 (from https://pypi.python.org/simple/traitlets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/t/traitlets/traitlets-4.2.0-py2.py3-none-any.whl#md5=af7152df07f753772457538d823cf542 (from https://pypi.python.org/simple/traitlets/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/t/traitlets/traitlets-4.2.1-py2.py3-none-any.whl#md5=d99a6356482caf22d76e787c1edf062b (from https://pypi.python.org/simple/traitlets/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-0.0.1.tar.gz#md5=23991fb5875c4d6c8a9daa89a10d8ca7 (from https://pypi.python.org/simple/traitlets/), version: 0.0.1
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-0.0.2.tar.gz#md5=2432ef4618fa6b2e8c90a20a65a14ce8 (from https://pypi.python.org/simple/traitlets/), version: 0.0.2
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.0.0.dev0.tar.gz#md5=c7462697d26b8c6dcb8b8bcfe49741e8 (from https://pypi.python.org/simple/traitlets/), version: 4.0.0.dev0
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.0.0.dev0.zip#md5=690e279f7cabe4729ada18e4d6a6f052 (from https://pypi.python.org/simple/traitlets/), version: 4.0.0.dev0
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.0.0.tar.gz#md5=27df56a921848686cf52766177a434f2 (from https://pypi.python.org/simple/traitlets/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.1.0.b1.tar.gz#md5=677393d0dbe5279bcbbb0236ee7c4693 (from https://pypi.python.org/simple/traitlets/), version: 4.1.0.b1
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.1.0.b1.zip#md5=f69f8a098a7a78124b51f4be28a2504c (from https://pypi.python.org/simple/traitlets/), version: 4.1.0.b1
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.1.0.tar.gz#md5=2ebf5e11a19f82f25395b4a793097080 (from https://pypi.python.org/simple/traitlets/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.1.0.zip#md5=602eb5826a454eb358a9e9619905c3e4 (from https://pypi.python.org/simple/traitlets/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.1.0b1.tar.gz#md5=c5ed6dfa6edf43623e386c615506260e (from https://pypi.python.org/simple/traitlets/), version: 4.1.0b1
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.1.0b1.zip#md5=e7d88c274b75714c27a2fc8509975b67 (from https://pypi.python.org/simple/traitlets/), version: 4.1.0b1
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.2.0.tar.gz#md5=1cab635cd97d6919a3396b5002135f8f (from https://pypi.python.org/simple/traitlets/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.2.0.zip#md5=36bb5518550076620c19814e9bb9074c (from https://pypi.python.org/simple/traitlets/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.2.1.tar.gz#md5=f9cc1ad00a793a65d7bc88d69ee65920 (from https://pypi.python.org/simple/traitlets/), version: 4.2.1
+    Found link https://pypi.python.org/packages/source/t/traitlets/traitlets-4.2.1.zip#md5=57799d882b5020c031b538bafcb539ed (from https://pypi.python.org/simple/traitlets/), version: 4.2.1
+  Using version 4.2.1 (newest of versions: 4.2.1, 4.2.1, 4.2.0, 4.2.0, 4.1.0, 4.1.0, 4.1.0.b1, 4.1.0.b1, 4.1.0b1, 4.1.0b1, 4.0.0, 4.0.0.dev0, 4.0.0.dev0, 0.0.2, 0.0.1)
+  Downloading from URL https://pypi.python.org/packages/source/t/traitlets/traitlets-4.2.1.tar.gz#md5=f9cc1ad00a793a65d7bc88d69ee65920 (from https://pypi.python.org/simple/traitlets/)
+  Running setup.py egg_info for package traitlets
+    running egg_info
+    creating pip-egg-info/traitlets.egg-info
+    writing requirements to pip-egg-info/traitlets.egg-info/requires.txt
+    writing pip-egg-info/traitlets.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/traitlets.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/traitlets.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/traitlets.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/traitlets.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files found matching 'docs/#*'
+    no previously-included directories found matching 'docs/build'
+    no previously-included directories found matching 'docs/gh-pages'
+    no previously-included directories found matching 'docs/dist'
+    warning: no previously-included files matching '*~' found anywhere in distribution
+    warning: no previously-included files matching '*.pyc' found anywhere in distribution
+    warning: no previously-included files matching '*.pyo' found anywhere in distribution
+    warning: no previously-included files matching '.git' found anywhere in distribution
+    warning: no previously-included files matching '.ipynb_checkpoints' found anywhere in distribution
+    writing manifest file 'pip-egg-info/traitlets.egg-info/SOURCES.txt'
+  Source in ./build/traitlets has version 4.2.1, which satisfies requirement traitlets (from notebook->jupyter)
+Downloading/unpacking jupyter-core (from notebook->jupyter)
+  Getting page http://pypi.python.org/simple/jupyter_core
+  URLs to search for versions for jupyter-core (from notebook->jupyter):
+  * http://pypi.python.org/simple/jupyter_core/
+  Getting page http://pypi.python.org/simple/jupyter_core/
+  Analyzing links from page https://pypi.python.org/simple/jupyter-core/
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_core/jupyter_core-4.0.0-py3-none-any.whl#md5=67428d4fe7cb1f140ba31b8287180cdf (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_core/jupyter_core-4.0.1-py2.py3-none-any.whl#md5=e3212c2ce4432d615c35e4d9cc537bf0 (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_core/jupyter_core-4.0.2-py2.py3-none-any.whl#md5=afa9d9c9184d9c577d947e5a958a02db (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_core/jupyter_core-4.0.3-py2.py3-none-any.whl#md5=c03618038c5705f3f63ce5182e0d68a7 (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_core/jupyter_core-4.0.4-py2.py3-none-any.whl#md5=3bdfcd92a0470c07e4753b18e23e309c (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/j/jupyter_core/jupyter_core-4.0.5-py2.py3-none-any.whl#md5=6946a57bff09dfbf570c92584a68d43b (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/j/jupyter_core/jupyter_core-4.0.6-py2.py3-none-any.whl#md5=b56d4e5791c97b2ccf4a0d899b8fad92 (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/j/jupyter_core/jupyter_core-4.1.0-py2.py3-none-any.whl#md5=4de29e72e8d1104a855bd35acdf86d0b (from https://pypi.python.org/simple/jupyter-core/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.0.tar.gz#md5=98d352116bbf489f398159eefb400624 (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.1.tar.gz#md5=d898617fe03d358b20c563715a53d77b (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.2.tar.gz#md5=a5b2280b94306fe2a6b04fecd2efa973 (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.2.zip#md5=80705eb68738ac21ac98e3f1e2f1ee71 (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.2
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.3.tar.gz#md5=ce32c3dfa420081be48ed068a81e635a (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.3
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.3.zip#md5=686626af608d41339d9145c10a0a5108 (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.3
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.4.tar.gz#md5=1d24d79414b8ec18216bf490e101313a (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.4
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.4.zip#md5=c937af5d360082ca8314b091df697199 (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.4
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.5.tar.gz#md5=dca5d43213f771a4dea92cf0d8b380ae (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.5
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.5.zip#md5=c71b93970e2820c49bd4a9b3ac37d1a3 (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.5
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.6.tar.gz#md5=af6eec7c93b692db007b209a9ce8e52f (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.6
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.0.6.zip#md5=66ff0dde1b2fbc4a99a135837d0a2cbb (from https://pypi.python.org/simple/jupyter-core/), version: 4.0.6
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.1.0.tar.gz#md5=78f6add824eef72b12e0f6e6940372b3 (from https://pypi.python.org/simple/jupyter-core/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.1.0.zip#md5=d316cddfbda9539d7a8e5dc2b3f8eda4 (from https://pypi.python.org/simple/jupyter-core/), version: 4.1.0
+  Using version 4.1.0 (newest of versions: 4.1.0, 4.1.0, 4.0.6, 4.0.6, 4.0.5, 4.0.5, 4.0.4, 4.0.4, 4.0.3, 4.0.3, 4.0.2, 4.0.2, 4.0.1, 4.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/j/jupyter_core/jupyter_core-4.1.0.tar.gz#md5=78f6add824eef72b12e0f6e6940372b3 (from https://pypi.python.org/simple/jupyter-core/)
+  Running setup.py egg_info for package jupyter-core
+    running egg_info
+    creating pip-egg-info/jupyter_core.egg-info
+    writing requirements to pip-egg-info/jupyter_core.egg-info/requires.txt
+    writing pip-egg-info/jupyter_core.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/jupyter_core.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/jupyter_core.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/jupyter_core.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/jupyter_core.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/jupyter_core.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/jupyter_core.egg-info/SOURCES.txt'
+  Source in ./build/jupyter-core has version 4.1.0, which satisfies requirement jupyter-core (from notebook->jupyter)
+Downloading/unpacking jupyter-client (from notebook->jupyter)
+  Getting page http://pypi.python.org/simple/jupyter_client
+  URLs to search for versions for jupyter-client (from notebook->jupyter):
+  * http://pypi.python.org/simple/jupyter_client/
+  Getting page http://pypi.python.org/simple/jupyter_client/
+  Analyzing links from page https://pypi.python.org/simple/jupyter-client/
+    Skipping link https://pypi.python.org/packages/3.4/j/jupyter_client/jupyter_client-4.0.0-py2.py3-none-any.whl#md5=3de4c490580d407b3f3158e0256daf2f (from https://pypi.python.org/simple/jupyter-client/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/j/jupyter_client/jupyter_client-4.1.1-py2.py3-none-any.whl#md5=2942344b917532429472ac1ccc93e976 (from https://pypi.python.org/simple/jupyter-client/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/j/jupyter_client/jupyter_client-4.2.0-py2.py3-none-any.whl#md5=42871f0c27832c25ca682103ba11bb99 (from https://pypi.python.org/simple/jupyter-client/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/j/jupyter_client/jupyter_client-4.2.1-py2.py3-none-any.whl#md5=aacd8d3872bca4661f6c2ff3edccbf16 (from https://pypi.python.org/simple/jupyter-client/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/j/jupyter_client/jupyter_client-4.2.2-py2.py3-none-any.whl#md5=16aa3ce20707d7cc4c0c9c7a1dd09195 (from https://pypi.python.org/simple/jupyter-client/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.0.0.tar.gz#md5=11ec05c5356c86ea3fe6b6008732874c (from https://pypi.python.org/simple/jupyter-client/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.0.0.zip#md5=42200250cbfe117b6fde32f050d6130e (from https://pypi.python.org/simple/jupyter-client/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.1.0.tar.gz#md5=89329db71318f921245816a6c37b2427 (from https://pypi.python.org/simple/jupyter-client/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.1.0.zip#md5=de19180916f7b1996defecb3e4f9f583 (from https://pypi.python.org/simple/jupyter-client/), version: 4.1.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.1.1.tar.gz#md5=2a90f6d3ebe6e7f3602aa2a3956f613d (from https://pypi.python.org/simple/jupyter-client/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.1.1.zip#md5=3f8b08528fe4d2af9fd1179c11115463 (from https://pypi.python.org/simple/jupyter-client/), version: 4.1.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.2.0.tar.gz#md5=e6a6da231c8a456e95a09ddded594b32 (from https://pypi.python.org/simple/jupyter-client/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.2.0.zip#md5=efa7d7af946cd48f5b899c626a145afb (from https://pypi.python.org/simple/jupyter-client/), version: 4.2.0
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.2.1.tar.gz#md5=2d4e254269ccb9bcf9b0016e26e0378d (from https://pypi.python.org/simple/jupyter-client/), version: 4.2.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.2.1.zip#md5=90303f703e93320c2893c3cef64d7d0f (from https://pypi.python.org/simple/jupyter-client/), version: 4.2.1
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.2.2.tar.gz#md5=f887b2c076297ed8216d89b17a2000ea (from https://pypi.python.org/simple/jupyter-client/), version: 4.2.2
+    Found link https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.2.2.zip#md5=45756e782cf207f6f416f1a663a3423d (from https://pypi.python.org/simple/jupyter-client/), version: 4.2.2
+  Using version 4.2.2 (newest of versions: 4.2.2, 4.2.2, 4.2.1, 4.2.1, 4.2.0, 4.2.0, 4.1.1, 4.1.1, 4.1.0, 4.1.0, 4.0.0, 4.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/j/jupyter_client/jupyter_client-4.2.2.tar.gz#md5=f887b2c076297ed8216d89b17a2000ea (from https://pypi.python.org/simple/jupyter-client/)
+  Running setup.py egg_info for package jupyter-client
+    running egg_info
+    creating pip-egg-info/jupyter_client.egg-info
+    writing requirements to pip-egg-info/jupyter_client.egg-info/requires.txt
+    writing pip-egg-info/jupyter_client.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/jupyter_client.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/jupyter_client.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/jupyter_client.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/jupyter_client.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/jupyter_client.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/jupyter_client.egg-info/SOURCES.txt'
+  Source in ./build/jupyter-client has version 4.2.2, which satisfies requirement jupyter-client (from notebook->jupyter)
+Downloading/unpacking nbformat (from notebook->jupyter)
+  Getting page http://pypi.python.org/simple/nbformat
+  URLs to search for versions for nbformat (from notebook->jupyter):
+  * http://pypi.python.org/simple/nbformat/
+  Getting page http://pypi.python.org/simple/nbformat/
+  Analyzing links from page https://pypi.python.org/simple/nbformat/
+    Skipping link https://pypi.python.org/packages/3.4/n/nbformat/nbformat-4.0.0-py2.py3-none-any.whl#md5=f40344bd46bda2cc0415a9cfefe77aa0 (from https://pypi.python.org/simple/nbformat/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.5/n/nbformat/nbformat-4.0.1-py2.py3-none-any.whl#md5=7d85500f000f30476160b69bb2fe9503 (from https://pypi.python.org/simple/nbformat/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/n/nbformat/nbformat-4.0.0.tar.gz#md5=ce31bb7f34c6a3554dc4a7625fc3033f (from https://pypi.python.org/simple/nbformat/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/n/nbformat/nbformat-4.0.0.zip#md5=d3396bcec6cf626562a91a66595ac7bc (from https://pypi.python.org/simple/nbformat/), version: 4.0.0
+    Found link https://pypi.python.org/packages/source/n/nbformat/nbformat-4.0.1.tar.gz#md5=684c4dc3c6fd8036fd1ae1c908003e23 (from https://pypi.python.org/simple/nbformat/), version: 4.0.1
+    Found link https://pypi.python.org/packages/source/n/nbformat/nbformat-4.0.1.zip#md5=3faf3101a28d53933fbdb294c579b17c (from https://pypi.python.org/simple/nbformat/), version: 4.0.1
+  Using version 4.0.1 (newest of versions: 4.0.1, 4.0.1, 4.0.0, 4.0.0)
+  Downloading from URL https://pypi.python.org/packages/source/n/nbformat/nbformat-4.0.1.tar.gz#md5=684c4dc3c6fd8036fd1ae1c908003e23 (from https://pypi.python.org/simple/nbformat/)
+  Running setup.py egg_info for package nbformat
+    running egg_info
+    creating pip-egg-info/nbformat.egg-info
+    writing requirements to pip-egg-info/nbformat.egg-info/requires.txt
+    writing pip-egg-info/nbformat.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/nbformat.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/nbformat.egg-info/dependency_links.txt
+    writing entry points to pip-egg-info/nbformat.egg-info/entry_points.txt
+    writing manifest file 'pip-egg-info/nbformat.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/nbformat.egg-info/SOURCES.txt'
+    writing manifest file 'pip-egg-info/nbformat.egg-info/SOURCES.txt'
+  Source in ./build/nbformat has version 4.0.1, which satisfies requirement nbformat (from notebook->jupyter)
+Requirement already satisfied (use --upgrade to upgrade): pygments in /usr/lib/python2.7/dist-packages (from qtconsole->jupyter)
+Requirement already satisfied (use --upgrade to upgrade): ipython in /usr/lib/python2.7/dist-packages (from jupyter-console->jupyter)
+Downloading/unpacking mistune!=0.6 (from nbconvert->jupyter)
+  Getting page http://pypi.python.org/simple/mistune
+  URLs to search for versions for mistune!=0.6 (from nbconvert->jupyter):
+  * http://pypi.python.org/simple/mistune/
+  Getting page http://pypi.python.org/simple/mistune/
+  Analyzing links from page https://pypi.python.org/simple/mistune/
+    Skipping link https://pypi.python.org/packages/2.6/m/mistune/mistune-0.4-cp26-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=933cd697f878847fa3b1af8ff1711006 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.6/m/mistune/mistune-0.4.1-cp26-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=b3911479c703e3eb884422fc619da61a (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.6/m/mistune/mistune-0.5-cp26-none-macosx_10_6_x86_64.whl#md5=518cfb8cbae8c26a4f28c1fd4b2d809c (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/m/mistune/mistune-0.4-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=e7156d3e8223cdb2ceda40cc64c5ca47 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/m/mistune/mistune-0.4.1-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=00c7d2e99035012e0d4e2b1e9d6c8d39 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/m/mistune/mistune-0.5-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=46878d65a8c99f610aa76d3e0481f84b (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/2.7/m/mistune/mistune-0.7.2-py2.py3-none-any.whl#md5=f235acf6886e7e92c1013db40a93256c (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.3/m/mistune/mistune-0.4-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=fae6214c5163c67b93d899ee32d26e7a (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.3/m/mistune/mistune-0.4.1-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=282edab01d1b08ca4154116e3434d083 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.3/m/mistune/mistune-0.5-cp33-cp33m-macosx_10_6_x86_64.whl#md5=a9dedd4239840511059e15d4a96f4425 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/m/mistune/mistune-0.4-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=7bf4f1138a5ad7dfa6acb83c970ca639 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/m/mistune/mistune-0.4.1-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.whl#md5=2d7fa6e0a6522071ea801d4760e1276a (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/3.4/m/mistune/mistune-0.5-cp34-cp34m-macosx_10_6_x86_64.whl#md5=12e9e74d653a642da4eba12b8d644aa2 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp27/m/mistune/mistune-0.5.1-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=46a6d829d7e3188a72221402aa8aba83 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp27/m/mistune/mistune-0.6-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=97864a6b840e669ad4116715c8f4e6b9 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp27/m/mistune/mistune-0.7-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=3fc557ee166bd1ad60340ede39943ad7 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp27/m/mistune/mistune-0.7.1-cp27-none-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=80c52e964261db5b0d16dc60ea96ca51 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp33/m/mistune/mistune-0.5.1-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=8eefb74c41c2e5156523973751e89864 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp33/m/mistune/mistune-0.6-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=0433fdfe7ba9f7311b47fe24b20aba9b (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp33/m/mistune/mistune-0.7-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=f7d86494293cbc1f73d0cf4e7bbb4cfa (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp33/m/mistune/mistune-0.7.1-cp33-cp33m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=538f4cf8ef5fce45aa173b7febb9f765 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp34/m/mistune/mistune-0.5.1-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=f156612e33e08be0a6493d54ea73f45a (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp34/m/mistune/mistune-0.6-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=29c79e3a7a8a0442c34e00dc104a50a4 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp34/m/mistune/mistune-0.7-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=1335608bbfab49c77ac00aa8ba809f27 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/cp34/m/mistune/mistune-0.7.1-cp34-cp34m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl#md5=1df23e85f7834de01d5afd2a84ba80ac (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/m/mistune/mistune-0.5.1-py2.py3-none-any.whl#md5=37fca52f108c0adcf5c5430bff71cafa (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/m/mistune/mistune-0.6-py2.py3-none-any.whl#md5=7dd4dd34d590d78916c02b78f180d0a4 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/m/mistune/mistune-0.7-py2.py3-none-any.whl#md5=2097b84066fb0d01f4c465be438f710e (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/m/mistune/mistune-0.7.1-py2.py3-none-any.whl#md5=51efec4e4cf86cdc131b1e038b52d0b2 (from https://pypi.python.org/simple/mistune/); unknown archive format: .whl
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.1.0.tar.gz#md5=bc3d2aa4f89ea2b3972070e920cfde55 (from https://pypi.python.org/simple/mistune/), version: 0.1.0
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.2.0.tar.gz#md5=9d3ca2eaf560717fe6087a931c417e1e (from https://pypi.python.org/simple/mistune/), version: 0.2.0
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.3.0.tar.gz#md5=f6118274e4e953467865d6a2cf4be693 (from https://pypi.python.org/simple/mistune/), version: 0.3.0
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.3.1.tar.gz#md5=4c09cdfc2110f32580a5c7eb66f17c75 (from https://pypi.python.org/simple/mistune/), version: 0.3.1
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.4.1.tar.gz#md5=45484381e8aa21d96a3a1f1016167c52 (from https://pypi.python.org/simple/mistune/), version: 0.4.1
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.4.tar.gz#md5=bee1d80e51cfb4e17660b99233dbc850 (from https://pypi.python.org/simple/mistune/), version: 0.4
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.5.1.tar.gz#md5=10a42265bfc7e9ad817fe777a4857821 (from https://pypi.python.org/simple/mistune/), version: 0.5.1
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.5.tar.gz#md5=36fefdd9b2466cac646b11aab2c13c74 (from https://pypi.python.org/simple/mistune/), version: 0.5
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.6.tar.gz#md5=9df3a09eeb3440f9fd50b08133fdbf9c (from https://pypi.python.org/simple/mistune/), version: 0.6
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.7.1.tar.gz#md5=057bc28bf629d6a1283d680a34ed9d0f (from https://pypi.python.org/simple/mistune/), version: 0.7.1
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.7.2.tar.gz#md5=ed9ac03c99261bd1803e44ddaa4f87cb (from https://pypi.python.org/simple/mistune/), version: 0.7.2
+    Found link https://pypi.python.org/packages/source/m/mistune/mistune-0.7.tar.gz#md5=16949bb59e8a74672b0bb24c52fb94cc (from https://pypi.python.org/simple/mistune/), version: 0.7
+  Ignoring link https://pypi.python.org/packages/source/m/mistune/mistune-0.6.tar.gz#md5=9df3a09eeb3440f9fd50b08133fdbf9c (from https://pypi.python.org/simple/mistune/), version 0.6 doesn't match !=0.6
+  Using version 0.7.2 (newest of versions: 0.7.2, 0.7.1, 0.7, 0.5.1, 0.5, 0.4.1, 0.4, 0.3.1, 0.3.0, 0.2.0, 0.1.0)
+  Downloading from URL https://pypi.python.org/packages/source/m/mistune/mistune-0.7.2.tar.gz#md5=ed9ac03c99261bd1803e44ddaa4f87cb (from https://pypi.python.org/simple/mistune/)
+  Running setup.py egg_info for package mistune
+    running egg_info
+    creating pip-egg-info/mistune.egg-info
+    writing pip-egg-info/mistune.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/mistune.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/mistune.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/mistune.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    reading manifest file 'pip-egg-info/mistune.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files found matching 'mistune.c'
+    warning: no previously-included files matching '*.pyc' found under directory 'tests'
+    warning: no previously-included files matching '*.pyo' found under directory 'tests'
+    writing manifest file 'pip-egg-info/mistune.egg-info/SOURCES.txt'
+  Source in ./build/mistune has version 0.7.2, which satisfies requirement mistune!=0.6 (from nbconvert->jupyter)
+Downloading/unpacking entrypoints (from nbconvert->jupyter)
+  Getting page http://pypi.python.org/simple/entrypoints
+  URLs to search for versions for entrypoints (from nbconvert->jupyter):
+  * http://pypi.python.org/simple/entrypoints/
+  Getting page http://pypi.python.org/simple/entrypoints/
+  Analyzing links from page https://pypi.python.org/simple/entrypoints/
+    Skipping link https://pypi.python.org/packages/py2.py3/e/entrypoints/entrypoints-0.1-py2.py3-none-any.whl#md5=15264cbf9cc9c412d080e570558bd799 (from https://pypi.python.org/simple/entrypoints/); unknown archive format: .whl
+    Skipping link https://pypi.python.org/packages/py2.py3/e/entrypoints/entrypoints-0.2-py2.py3-none-any.whl#md5=5b581e94b002ebb686c937a449a9ed5d (from https://pypi.python.org/simple/entrypoints/); unknown archive format: .whl
+  Could not find any downloads that satisfy the requirement entrypoints (from nbconvert->jupyter)
+No distributions at all found for entrypoints (from nbconvert->jupyter)
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 126, in main
+    self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 223, in run
+    requirement_set.prepare_files(finder, force_root_egg_info=self.bundle, bundle=self.bundle)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 948, in prepare_files
+    url = finder.find_requirement(req_to_install, upgrade=self.upgrade)
+  File "/usr/lib/python2.7/dist-packages/pip/index.py", line 152, in find_requirement
+    raise DistributionNotFound('No distributions at all found for %s' % req)
+DistributionNotFound: No distributions at all found for entrypoints (from nbconvert->jupyter)
